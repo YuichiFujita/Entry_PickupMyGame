@@ -1,0 +1,206 @@
+#==============================================================================
+#
+#	ウェーブのセットアップ [wave.txt]
+#	Author : you
+#
+#==============================================================================
+#------------------------------------------------------------------------------
+#	ウェーブ情報
+#------------------------------------------------------------------------------
+#----------------
+#	ウェーブ春
+#----------------
+SEASONSET
+
+	# ウェーブ数
+	NUM_WAVE = 1
+	
+	WAVE	# ウェーブ1
+		
+		# 出現数
+		NUM_POINT = 2
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 1
+		END_POINT
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 2
+		END_POINT
+		
+	END_WAVE
+	
+END_SEASONSET
+
+#----------------
+#	ウェーブ夏
+#----------------
+SEASONSET
+
+	# ウェーブ数
+	NUM_WAVE = 2
+
+	WAVE	# ウェーブ1
+		
+		# 出現数
+		NUM_POINT = 2
+		
+		POINT
+			FRAME = 600	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 1 1
+		END_POINT
+		
+		POINT
+			FRAME = 1800	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 1 2
+		END_POINT
+		
+	END_WAVE
+	
+	WAVE	# ウェーブ2
+		
+		# 出現数
+		NUM_POINT = 1
+		
+		POINT
+			FRAME = 3000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 3
+			SPAWN = 1 2
+		END_POINT
+		
+	END_WAVE
+
+END_SEASONSET
+
+#----------------
+#	ウェーブ秋
+#----------------
+SEASONSET
+
+	# ウェーブ数
+	NUM_WAVE = 2
+
+	WAVE	# ウェーブ1
+		
+		# 出現数
+		NUM_POINT = 2
+		
+		POINT
+			FRAME = 1000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 1 3
+		END_POINT
+		
+		POINT
+			FRAME = 2300	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 1
+			SPAWN = 1 2
+		END_POINT
+		
+	END_WAVE
+
+	WAVE	# ウェーブ2
+		
+		# 出現数
+		NUM_POINT = 3
+		
+		POINT
+			FRAME = 3000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 4
+		END_POINT
+
+		POINT
+			FRAME = 600		# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 3
+		END_POINT
+		
+		POINT
+			FRAME = 1000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 3
+		END_POINT
+		
+	END_WAVE
+
+END_SEASONSET
+
+#----------------
+#	ウェーブ冬
+#----------------
+SEASONSET
+
+	# ウェーブ数
+	NUM_WAVE = 2
+
+	WAVE	# ウェーブ1
+		
+		# 出現数
+		NUM_POINT = 2
+		
+		POINT
+			FRAME = 1000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 4
+		END_POINT
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 2
+			SPAWN = 1 3
+		END_POINT
+		
+	END_WAVE
+	
+	WAVE	# ウェーブ2
+		
+		# 出現数
+		NUM_POINT = 3
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 6
+		END_POINT
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 1 6
+		END_POINT
+		
+		POINT
+			FRAME = 2000	# 猶予フレーム
+			
+			# 生成種類・数
+			SPAWN = 0 4
+			SPAWN = 1 4
+		END_POINT
+		
+	END_WAVE
+	
+END_SEASONSET

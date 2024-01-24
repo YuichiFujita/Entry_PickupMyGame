@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\00_SYSTEM">
+      <UniqueIdentifier>{e42a0ff0-d2dd-4c8a-a329-aba6fb2f6e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\01_MODE">
+      <UniqueIdentifier>{9f428e84-b7a9-4686-910b-0792581e5e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\02_UI">
+      <UniqueIdentifier>{ce48ad8a-2fa6-45cd-b7aa-b733f3915012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\05_BILLBOARD">
+      <UniqueIdentifier>{575eb85d-e2fc-4f20-b92b-e69d636dd637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\03_MODEL">
+      <UniqueIdentifier>{1ef04e2a-5962-4930-9aef-318067d52984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\04_MESH">
+      <UniqueIdentifier>{3d71fe10-f66e-4868-a4b7-f92fbc128e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\00_SYSTEM">
+      <UniqueIdentifier>{8501759c-42b2-4d34-9761-ff920493fda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\01_MODE">
+      <UniqueIdentifier>{edb33a6f-ab07-40fc-97e4-0d2843963670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\02_UI">
+      <UniqueIdentifier>{d1e70239-983a-494f-85dc-60c7378be5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\03_MODEL">
+      <UniqueIdentifier>{88534aed-10ae-4f59-983a-70da04003550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\04_MESH">
+      <UniqueIdentifier>{be44c98a-6ef0-47ed-aa95-4bdccd92e05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\05_BILLBOARD">
+      <UniqueIdentifier>{01703021-ae38-46af-ab8e-e935aaa0d247}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="00_sorce\camera.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\fade.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\input.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\light.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\main.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\sound.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\value.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\game.cpp">
+      <Filter>ソース ファイル\01_MODE</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\title.cpp">
+      <Filter>ソース ファイル\01_MODE</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\tutorial.cpp">
+      <Filter>ソース ファイル\01_MODE</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\continue.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\life.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\pause.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\ranking.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\result.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\score.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\timer.cpp">
+      <Filter>ソース ファイル\02_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\enemy.cpp">
+      <Filter>ソース ファイル\03_MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\item.cpp">
+      <Filter>ソース ファイル\03_MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\object.cpp">
+      <Filter>ソース ファイル\03_MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\player.cpp">
+      <Filter>ソース ファイル\03_MODEL</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\billboard.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\bullet.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\effect.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\explosion.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\particle.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\weed.cpp">
+      <Filter>ソース ファイル\05_BILLBOARD</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\field.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\meshcylinder.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\meshdome.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\meshfield.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\meshwall.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\orbit.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\shadow.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\slash.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\tornado.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\wall.cpp">
+      <Filter>ソース ファイル\04_MESH</Filter>
+    </ClCompile>
+    <ClCompile Include="00_sorce\calculation.cpp">
+      <Filter>ソース ファイル\00_SYSTEM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="01_header\camera.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\fade.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\input.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\light.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\main.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\sound.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\value.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\game.h">
+      <Filter>ヘッダー ファイル\01_MODE</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\title.h">
+      <Filter>ヘッダー ファイル\01_MODE</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\tutorial.h">
+      <Filter>ヘッダー ファイル\01_MODE</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\continue.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\life.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\pause.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\ranking.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\result.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\score.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\timer.h">
+      <Filter>ヘッダー ファイル\02_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\enemy.h">
+      <Filter>ヘッダー ファイル\03_MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\item.h">
+      <Filter>ヘッダー ファイル\03_MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\player.h">
+      <Filter>ヘッダー ファイル\03_MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\object.h">
+      <Filter>ヘッダー ファイル\03_MODEL</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\weed.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\particle.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\explosion.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\effect.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\bullet.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\billboard.h">
+      <Filter>ヘッダー ファイル\05_BILLBOARD</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\field.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\meshcylinder.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\meshdome.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\meshfield.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\meshwall.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\orbit.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\shadow.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\slash.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\tornado.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\wall.h">
+      <Filter>ヘッダー ファイル\04_MESH</Filter>
+    </ClInclude>
+    <ClInclude Include="01_header\calculation.h">
+      <Filter>ヘッダー ファイル\00_SYSTEM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

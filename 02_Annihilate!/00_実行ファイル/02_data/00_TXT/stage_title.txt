@@ -1,0 +1,551 @@
+#==============================================================================
+#
+#	ステージの配置情報 [stage_tutorial.txt]
+#	Author : you
+#
+#==============================================================================
+#------------------------------------------------------------------------------
+# 移動範囲の情報
+#------------------------------------------------------------------------------
+STAGE_LIMITSET
+	NEAR = 800
+	FAR = -800
+	RIGHT = 800
+	LEFT = -800
+	FIELD = 0
+END_STAGE_LIMITSET
+
+#------------------------------------------------------------------------------
+# メッシュドームの配置情報
+#------------------------------------------------------------------------------
+STAGE_MESHDOMESET
+
+	MESHDOMESET
+		POS = 0 0 0
+		ROT = 0 0 0
+		RADIUS = 6000
+		PARTWIDTH = 16
+		PARTHEIGHT = 16
+	END_MESHDOMESET
+
+END_STAGE_MESHDOMESET
+
+#------------------------------------------------------------------------------
+# メッシュシリンダーの配置情報
+#------------------------------------------------------------------------------
+STAGE_MESHCYLINDERSET
+
+	MESHCYLINDERSET
+		POS = 0 0 0
+		ROT = 0 0 0
+		RADIUS = 4000
+		HEIGHT = 800
+		PARTWIDTH = 16
+		PARTHEIGHT = 1
+	END_MESHCYLINDERSET
+
+END_STAGE_MESHCYLINDERSET
+
+#------------------------------------------------------------------------------
+# メッシュフェールドの配置情報
+#------------------------------------------------------------------------------
+STAGE_MESHFIELDSET
+
+	MESHFIELDSET
+		POS = 0 0 0
+		ROT = 0 0 0
+		WIDTH = 1600
+		HEIGHT = 1600
+		PARTWIDTH = 8
+		PARTHEIGHT = 8
+	END_MESHFIELDSET
+	
+	MESHFIELDSET
+		POS = 0 200 1000
+		ROT = 0 0 0
+		WIDTH = 1600
+		HEIGHT = 400
+		PARTWIDTH = 8
+		PARTHEIGHT = 2
+	END_MESHFIELDSET
+	
+	MESHFIELDSET
+		POS = 0 200 -1000
+		ROT = 0 0 0
+		WIDTH = 1600
+		HEIGHT = 400
+		PARTWIDTH = 8
+		PARTHEIGHT = 2
+	END_MESHFIELDSET
+	
+	MESHFIELDSET
+		POS = 1000 200 0
+		ROT = 0 0 0
+		WIDTH = 400
+		HEIGHT = 2400
+		PARTWIDTH = 2
+		PARTHEIGHT = 12
+	END_MESHFIELDSET
+	
+	MESHFIELDSET
+		POS = -1000 200 0
+		ROT = 0 0 0
+		WIDTH = 400
+		HEIGHT = 2400
+		PARTWIDTH = 2
+		PARTHEIGHT = 12
+	END_MESHFIELDSET
+
+END_STAGE_MESHFIELDSET
+
+#------------------------------------------------------------------------------
+# メッシュウォールの配置情報
+#------------------------------------------------------------------------------
+STAGE_MESHWALLSET
+
+	MESHWALLSET
+		POS = 0 0 800
+		ROT = 0 0 0
+		WIDTH = 1600
+		HEIGHT = 200
+		PARTWIDTH = 8
+		PARTHEIGHT = 1
+	END_MESHWALLSET
+	
+	MESHWALLSET
+		POS = 800 0 0
+		ROT = 0 90 0
+		WIDTH = 1600
+		HEIGHT = 200
+		PARTWIDTH = 8
+		PARTHEIGHT = 1
+	END_MESHWALLSET
+	
+	MESHWALLSET
+		POS = 0 0 -800
+		ROT = 0 180 0
+		WIDTH = 1600
+		HEIGHT = 200
+		PARTWIDTH = 8
+		PARTHEIGHT = 1
+	END_MESHWALLSET
+	
+	MESHWALLSET
+		POS = -800 0 0
+		ROT = 0 270 0
+		WIDTH = 1600
+		HEIGHT = 200
+		PARTWIDTH = 8
+		PARTHEIGHT = 1
+	END_MESHWALLSET
+
+END_STAGE_MESHWALLSET
+
+#------------------------------------------------------------------------------
+# オブジェクトの配置情報
+#------------------------------------------------------------------------------
+#------------------------------
+# BREAKTYPE：0  壊れない
+#          ：1  壊れる
+#------------------------------
+STAGE_OBJECTSET
+
+	#--------------------------
+	# 木
+	#--------------------------
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -200 0 -200
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = -150 0 -350
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = 0 0 -400
+		ROT = 0 0 0
+	END_OBJECTSET
+
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = 140 0 -350
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = 200 0 -200
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -220 0 -100
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -200 0 0
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = 190 0 -15
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = -160 0 100
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = 140 0 100
+		ROT = 0 0 0
+	END_OBJECTSET
+
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = -180 0 230
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = -180 0 360
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -60 0 420
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = 60 0 440
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = 180 0 420
+		ROT = 0 0 0
+	END_OBJECTSET
+
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = 260 0 80
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = 380 0 60
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = 500 0 70
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = 620 0 40
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = 740 0 80
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -280 0 420
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -580 0 430
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = -720 0 430
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = -730 0 -340
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -380 0 -340
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = -480 0 -320
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 1
+		BREAKTYPE = 0
+		POS = -270 0 -290
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 2
+		BREAKTYPE = 0
+		POS = 200 0 -480
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 0
+		BREAKTYPE = 0
+		POS = 190 0 -600
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	#--------------------------
+	# 石
+	#--------------------------
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 90 0 -400
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 130 0 -440
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = -90 0 -420
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 5
+		BREAKTYPE = 0
+		POS = -250 0 -380
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -320 0 -380
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 5
+		BREAKTYPE = 0
+		POS = 230 0 -310
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 210 0 -380
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 5
+		BREAKTYPE = 0
+		POS = 250 0 -110
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = 210 0 135
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 450 0 115
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = 660 0 125
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 705 0 20
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 770 0 0
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 5
+		BREAKTYPE = 0
+		POS = -135 0 440
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -210 0 450
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 95 0 375
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = 5 0 390
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -635 0 390
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = -760 0 360
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = -240 0 290
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -280 0 340
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -260 0 220
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 5
+		BREAKTYPE = 0
+		POS = -225 0 160
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -235 0 80
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 3
+		BREAKTYPE = 0
+		POS = -765 0 -280
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = 310 0 -20
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+	OBJECTSET
+		TYPE = 4
+		BREAKTYPE = 0
+		POS = 430 0 10
+		ROT = 0 0 0
+	END_OBJECTSET
+	
+END_STAGE_OBJECTSET
